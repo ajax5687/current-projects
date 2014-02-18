@@ -1,4 +1,4 @@
 Current-Projects
 ================
 
-First drafts some ongoing stuff
+First drafts of some ongoing stuff
