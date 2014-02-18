@@ -1,0 +1,201 @@
+
+#container {
+	width: 920px;
+	height: 520px;
+	margin: 50px auto 0 auto;
+	overflow: hidden;
+}
+
+.col_span_left {
+	width: 70%;
+}
+
+.col_span_right {
+	float: left;
+	margin-left: 25px;
+	width: 55%;
+	height: 510px;
+	overflow: hidden;
+}
+
+h1 {
+	font-family:'Oswald', sans-serif;
+	font-size: 32px;
+	color: #1A374D;
+	font-weight: lighter;
+	line-height: 0.6em;
+}
+
+.chatter {
+	margin-top: 10px;
+	margin-bottom: 8px;
+	margin-right: 31px;
+	font-size: 12px;
+	font-family: 'Merriweather', serif;
+	font-weight: lighter;
+	line-height: 1.7em;
+}
+
+.annotation{
+	float: left;
+	width:50%;
+	margin-top: 20px;
+	font-weight: lighter;
+	color:#646464;
+	font-size:13px;
+	line-height: 1.3em;
+}
+
+#middle, #last {
+	display: none;
+}
+
+.imgright {
+	float: right;
+}
+
+.map {
+	float: left;
+	width: 60%;
+	height: 510px;
+	border: 1px solid #ccc;
+	overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #D4D4D4;
+}
+
+.map img {
+	display: block;
+	width: 350px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#base-map, #circuit8, #circuit12 {
+	display: none;
+}
+
+/* nav */
+
+nav {
+	position: relative;
+	margin: 20px 0;
+}
+
+.wrapper-nav {
+	width: 25%;
+	display: block;
+}
+
+.wrapper {
+	width: 55%;
+	display: inline;
+}
+
+#year1, #year2, #year3 {
+	float: left;
+	padding-top: 25px;
+	font-family:'Oswald', sans-serif;
+	font-size: 16px;
+	color: #1A374D;
+	line-height: normal;
+}
+
+.without-pointer {
+	font-weight: normal;
+}
+
+.pointer {
+	font-weight: bold;
+}
+
+#year1 {padding-left: 95px;}
+#year2 {padding-left: 97px;}
+#year3 {padding-left: 100px;}
+
+#next,
+#prev {
+	position: relative;
+	cursor: pointer;
+	padding-top: 16%;
+	display: block;
+	float: left;
+}
+
+#next {
+	left: 30px;
+}
+
+#prev {
+	left: 10px;
+}
+
+#intro {
+	float: left;
+}
+
+#arrow, #text {
+	position: relative;
+}
+
+#arrow img {
+	 width: 60px;
+     height: 70px;
+}
+
+#arrow {
+	left: 70px;
+	top: -23px;
+/*	left: 715px;
+	top: 250px;*/
+	float: left;
+}
+
+#text {
+	font-family:'Oswald', sans-serif;
+	font-size: 14px;
+	color: black;
+	font-weight: normal;
+    left: -54px;
+    top: 20px;
+}
+
+/* brush */
+
+#slider {
+	width: 300px;
+	margin: 0 auto;
+	padding-left: 100px;
+}
+
+
+.axis {
+  font: 0px sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+}
+
+.axis .domain {
+  fill: none;
+  stroke: #000;
+  stroke-opacity: .3;
+  stroke-width: 10px;
+  stroke-linecap: round;
+}
+
+.axis .halo {
+  fill: none;
+  stroke: #C1C1C1;
+  stroke-width: 8px;
+  stroke-linecap: round;
+}
+
+.slider .handle {
+  fill: #fff;
+  stroke: #000;
+  stroke-opacity: .5;
+  stroke-width: 1.25px;
+  pointer-events: none;
+}
